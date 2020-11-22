@@ -34,11 +34,11 @@ void setup() {
   bx = width/2.0;
   by = height/2.0;
   rectMode(RADIUS);
-  rectColor = color(#4031F2);
+  rectColor = color('#4031F2');
   pupilColor = color(0);
   mouthColor =color(100);
   circleColor = color(255);
-  firstColor =color(#31F252);
+  firstColor =color('#31F252');
   secondColor = color(#A731F2);
   thirdColor = color(#F29F31);
 
