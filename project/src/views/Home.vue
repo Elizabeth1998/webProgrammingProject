@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <div class="home">
+  <div id="home">
+    <div class="Intro">
       <h1>Welcome to Charile the Chore Checker!</h1>
       <h2>What chores do we have to do today?</h2>
     </div>
-    <trackerTable />
+    <div id="table">
+      <trackerTable />
+    </div>
   </div>
 </template>
 
@@ -18,3 +20,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.Intro{
+  text-align:center;
+}
+
+#table{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+</style>

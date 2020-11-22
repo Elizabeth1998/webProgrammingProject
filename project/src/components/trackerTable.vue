@@ -1,6 +1,16 @@
 <template>
-  <div id="vue-table">
-    <table striped hover :items="items"> </table>
+  <div class="vue-table">
+    <table>
+      <tr>
+        <td><a><i class="material-icons">edit</i></a></td>
+        <td>Item</td>
+        <td>
+          <a><i class="material-icons">check_box_outline_blank</i></a>
+          <a><i class="material-icons">check_box</i></a>
+        </td>
+        <td><a><i class="material-icons">delete</i></a></td>
+      </tr>
+    </table>
   </div>
 </template>
 
@@ -21,6 +31,13 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+
+
+table, th, td {
+  border: 1px solid black;
+}
 h3 {
   margin: 40px 0 0;
 }
