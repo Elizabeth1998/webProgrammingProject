@@ -5,6 +5,7 @@
         <meta charset="utf-8"/>
     </head>
     <body>
-        <script src="/static/move.js"></script>
+        <h1>Change the color!</h1>
+        <script src="/static/color.js"></script>
     </body>
 </html>
